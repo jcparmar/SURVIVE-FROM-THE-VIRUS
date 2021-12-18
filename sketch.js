@@ -136,7 +136,7 @@ function  spawnvirus  () {
    virus.velocityX = -(6 + 2*score/150);
    virus.lifetime = 200
    virus.debug = true
-   virus.setCollider("circle",10,1)
+   virus.setCollider("circle",1,1,10,1)
    virusG.add(virus)
 }
 
